@@ -1,0 +1,91 @@
+<div class="container">
+  <div class="tabs">
+    <button class="tab" (click)="alterTab('new')" [ngClass]="{'active': tabs === 'new'}">Invited</button>
+    <button class="tab" (click)="alterTab('accepted')" [ngClass]="{'active': tabs === 'accepted'}">Accepted</button>
+  </div>
+
+  <ng-container *ngIf="tabs === 'new' && !loading">
+    <div class="job-list" >
+      <ng-container *ngFor="let lead of leads">
+        <div class="job">
+          <div class="header">
+            <div class="icon">{{ lead.contactFirstName | slice:0:1 }}</div>
+            <div>
+              <h3>{{lead.contactFirstName}}</h3>
+              <p>{{ '2024-11-08T20:27:46.4407831' | date:'MMMM d @ h:mm a' }}</p>
+            </div>
+          </div>
+          <div class="infos">
+            <div>
+              <img src="../assets/icons/icon-location.svg" alt="">
+              {{lead.suburb}}
+            </div>
+            <div>
+              <img src="../assets/icons/icon-business.svg" alt="">
+              {{lead.category}}
+            </div>
+            <div>Job ID: {{lead.id}}</div>
+          </div>
+          <p class="description">{{lead.description}}</p>
+          <div class="actions">
+            <div>
+              <button class="accept" (click)="updateToAccepted(lead.id)">Accept</button>
+              <button class="decline" (click)="updateToDeclined(lead.id)">Decline</button>
+            </div>
+            <span class="price"><b>{{ lead.price | currency:'USD':'symbol' }}</b> Lead Invitation</span>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="tabs === 'accepted' && !loading">
+    <div class="job-list">
+      <ng-container *ngFor="let lead of leads">
+        <div class="job">
+          <div class="header">
+            <div class="icon">{{ lead.contactFirstName | slice:0:1 }}</div>
+            <div>
+              <h3>{{lead.contactFirstName}}</h3>
+              <p>{{ '2024-11-08T20:27:46.4407831' | date:'MMMM d yyyy @ h:mm a' }}</p>
+            </div>
+          </div>
+          <div class="infos infos-accepted">
+            <div>
+              <img src="../assets/icons/icon-location.svg" alt="">
+              {{lead.suburb}}
+            </div>
+            <div>
+              <img src="../assets/icons/icon-business.svg" alt="">
+              {{lead.category}}
+            </div>
+            <div>Job ID: {{lead.id}}</div>
+            <div>{{ lead.price | currency:'USD':'symbol' }} Lead Invitation</div>
+          </div>
+
+          <div class="contact">
+            <div><img src="../assets/icons/icon-call.svg" alt="">{{lead.contactPhoneNumber}}</div>
+            <div><img src="../assets/icons/icon-mail.svg" alt="">{{lead.contactEmail}}</div>
+          </div>
+
+          <div style="border: none;" class="description">
+            {{lead.description}}
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="leads.length == 0 && !loading">
+    <div class="warning-lead">
+      <h2>Currently, there are no leads available. Please check back later.</h2>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="loading">
+    <div class="loading-screen">
+      <div class="spinner"></div>
+      <p>Loading...</p>
+    </div>
+  </ng-container>
+</div>

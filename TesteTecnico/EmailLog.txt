@@ -1,0 +1,3 @@
+Email sent to vendas@test.com with subject: Lead Accepted
+Body: Lead 18 has been accepted.
+
