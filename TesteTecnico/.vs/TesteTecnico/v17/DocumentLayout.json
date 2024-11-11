@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|c:\\programacao\\testetecnico\\testetecnico\\application\\controllers\\leadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|solutionrelative:application\\controllers\\leadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|c:\\programacao\\testetecnico\\testetecnico\\service\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|solutionrelative:service\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|c:\\programacao\\testetecnico\\testetecnico\\application\\commands\\acceptleadcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|solutionrelative:application\\commands\\acceptleadcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|c:\\programacao\\testetecnico\\testetecnico\\application\\commands\\declineleadcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|solutionrelative:application\\commands\\declineleadcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|c:\\programacao\\testetecnico\\testetecnico\\application\\controllers\\leadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|solutionrelative:application\\controllers\\leadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|c:\\programacao\\testetecnico\\testetecnico\\application\\handlers\\acceptleadcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|solutionrelative:infra\\repository\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|c:\\programacao\\testetecnico\\testetecnico\\service\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|solutionrelative:service\\iservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|c:\\programacao\\testetecnico\\testetecnico\\service\\iservices\\ileadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A025F352-6835-462A-8C96-A0AB4EEFB106}|TesteTecnico.csproj|solutionrelative:service\\iservices\\ileadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,24 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DeclineLeadCommandHandler.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\DeclineLeadCommandHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handlers\\DeclineLeadCommandHandler.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\DeclineLeadCommandHandler.cs",
-              "RelativeToolTip": "Application\\Handlers\\DeclineLeadCommandHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:34.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AcceptLeadCommandHandler.cs",
               "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\AcceptLeadCommandHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handlers\\AcceptLeadCommandHandler.cs",
@@ -115,25 +102,24 @@
               "RelativeToolTip": "Application\\Handlers\\AcceptLeadCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:33.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:36:33.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LeadController.cs",
               "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Controllers\\LeadController.cs",
               "RelativeDocumentMoniker": "Application\\Controllers\\LeadController.cs",
               "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Controllers\\LeadController.cs",
               "RelativeToolTip": "Application\\Controllers\\LeadController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T00:36:28.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DeclineLeadCommand.cs",
               "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Commands\\DeclineLeadCommand.cs",
               "RelativeDocumentMoniker": "Application\\Commands\\DeclineLeadCommand.cs",
@@ -141,12 +127,11 @@
               "RelativeToolTip": "Application\\Commands\\DeclineLeadCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:25.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:36:25.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AcceptLeadCommand.cs",
               "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Commands\\AcceptLeadCommand.cs",
               "RelativeDocumentMoniker": "Application\\Commands\\AcceptLeadCommand.cs",
@@ -154,142 +139,11 @@
               "RelativeToolTip": "Application\\Commands\\AcceptLeadCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:23.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:36:23.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetAcceptedLeadsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\GetAcceptedLeadsQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handlers\\GetAcceptedLeadsQueryHandler.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\GetAcceptedLeadsQueryHandler.cs",
-              "RelativeToolTip": "Application\\Handlers\\GetAcceptedLeadsQueryHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:36.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetNewLeadsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\GetNewLeadsQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handlers\\GetNewLeadsQueryHandler.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\GetNewLeadsQueryHandler.cs",
-              "RelativeToolTip": "Application\\Handlers\\GetNewLeadsQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:42.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetAcceptedLeadsQuery.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Queries\\GetAcceptedLeadsQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Queries\\GetAcceptedLeadsQuery.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Queries\\GetAcceptedLeadsQuery.cs",
-              "RelativeToolTip": "Application\\Queries\\GetAcceptedLeadsQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:54.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetNewLeadsQuery.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Queries\\GetNewLeadsQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Queries\\GetNewLeadsQuery.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Queries\\GetNewLeadsQuery.cs",
-              "RelativeToolTip": "Application\\Queries\\GetNewLeadsQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:55.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Lead.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Domain\\Entities\\Lead.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Lead.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Domain\\Entities\\Lead.cs",
-              "RelativeToolTip": "Domain\\Entities\\Lead.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:59.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EnumStatusLead.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Domain\\Enums\\EnumStatusLead.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\EnumStatusLead.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Domain\\Enums\\EnumStatusLead.cs",
-              "RelativeToolTip": "Domain\\Enums\\EnumStatusLead.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:37:07.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LeadContext.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Context\\LeadContext.cs",
-              "RelativeDocumentMoniker": "Infra\\Context\\LeadContext.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Context\\LeadContext.cs",
-              "RelativeToolTip": "Infra\\Context\\LeadContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:37:09.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ILeadRepository.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\IRepository\\ILeadRepository.cs",
-              "RelativeDocumentMoniker": "Infra\\Repository\\IRepository\\ILeadRepository.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\IRepository\\ILeadRepository.cs",
-              "RelativeToolTip": "Infra\\Repository\\IRepository\\ILeadRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:37:14.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LeadRepository.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\LeadRepository.cs",
-              "RelativeDocumentMoniker": "Infra\\Repository\\LeadRepository.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\LeadRepository.cs",
-              "RelativeToolTip": "Infra\\Repository\\LeadRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:37:16.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\SeedData.cs",
-              "RelativeDocumentMoniker": "Infra\\Repository\\SeedData.cs",
-              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\SeedData.cs",
-              "RelativeToolTip": "Infra\\Repository\\SeedData.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJQAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:37:19.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Service\\IServices\\IEmailService.cs",
               "RelativeDocumentMoniker": "Service\\IServices\\IEmailService.cs",
@@ -297,8 +151,139 @@
               "RelativeToolTip": "Service\\IServices\\IEmailService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:39:17.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:39:17.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeclineLeadCommandHandler.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\DeclineLeadCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\DeclineLeadCommandHandler.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\DeclineLeadCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\DeclineLeadCommandHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:36:34.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAcceptedLeadsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\GetAcceptedLeadsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\GetAcceptedLeadsQueryHandler.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\GetAcceptedLeadsQueryHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\GetAcceptedLeadsQueryHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:36:36.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetNewLeadsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\GetNewLeadsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\GetNewLeadsQueryHandler.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Handlers\\GetNewLeadsQueryHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\GetNewLeadsQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:36:42.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAcceptedLeadsQuery.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Queries\\GetAcceptedLeadsQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetAcceptedLeadsQuery.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Queries\\GetAcceptedLeadsQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetAcceptedLeadsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:36:54.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetNewLeadsQuery.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Queries\\GetNewLeadsQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetNewLeadsQuery.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Application\\Queries\\GetNewLeadsQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetNewLeadsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:36:55.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Lead.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Domain\\Entities\\Lead.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Lead.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Domain\\Entities\\Lead.cs",
+              "RelativeToolTip": "Domain\\Entities\\Lead.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:36:59.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnumStatusLead.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Domain\\Enums\\EnumStatusLead.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\EnumStatusLead.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Domain\\Enums\\EnumStatusLead.cs",
+              "RelativeToolTip": "Domain\\Enums\\EnumStatusLead.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:37:07.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LeadContext.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Context\\LeadContext.cs",
+              "RelativeDocumentMoniker": "Infra\\Context\\LeadContext.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Context\\LeadContext.cs",
+              "RelativeToolTip": "Infra\\Context\\LeadContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:37:09.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ILeadRepository.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\IRepository\\ILeadRepository.cs",
+              "RelativeDocumentMoniker": "Infra\\Repository\\IRepository\\ILeadRepository.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\IRepository\\ILeadRepository.cs",
+              "RelativeToolTip": "Infra\\Repository\\IRepository\\ILeadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:37:14.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LeadRepository.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\LeadRepository.cs",
+              "RelativeDocumentMoniker": "Infra\\Repository\\LeadRepository.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\LeadRepository.cs",
+              "RelativeToolTip": "Infra\\Repository\\LeadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:37:16.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\SeedData.cs",
+              "RelativeDocumentMoniker": "Infra\\Repository\\SeedData.cs",
+              "ToolTip": "C:\\Programacao\\TesteTecnico\\TesteTecnico\\Infra\\Repository\\SeedData.cs",
+              "RelativeToolTip": "Infra\\Repository\\SeedData.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T00:37:19.224Z"
             },
             {
               "$type": "Document",
@@ -310,8 +295,7 @@
               "RelativeToolTip": "Service\\IServices\\ILeadService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:37:24.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:37:24.791Z"
             },
             {
               "$type": "Document",
@@ -323,8 +307,7 @@
               "RelativeToolTip": "Service\\EmailService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:39:35.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:39:35.565Z"
             },
             {
               "$type": "Document",
@@ -336,8 +319,7 @@
               "RelativeToolTip": "Service\\LeadService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAB4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:36:47.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:36:47.774Z"
             },
             {
               "$type": "Document",
@@ -349,8 +331,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:40:42.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:40:42.887Z"
             }
           ]
         }
